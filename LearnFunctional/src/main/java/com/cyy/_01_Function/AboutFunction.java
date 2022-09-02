@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._01_Function;
+package com.cyy._01_Function;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

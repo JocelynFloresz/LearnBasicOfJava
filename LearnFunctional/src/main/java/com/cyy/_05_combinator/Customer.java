@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._05_combinator;
+package com.cyy._05_combinator;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.ToString;
 
 import java.time.LocalDate;
 
-import static com.yyc.learnfunctionalprograming._05_combinator.CustomerRegistrationValidator.*;
+import static com.cyy._05_combinator.CustomerRegistrationValidator.*;
 
 /**
  * @author dachen
@@ -24,7 +24,7 @@ public class Customer {
         Customer customer = new Customer("Dachen", "380803250@qq.com"
                 , "+0123", LocalDate.of(2000, 1, 1));
 //        System.out.println(new CustomerValidateService().isCustomerValidate(customer));
-        ValidationResult result = isEmailValid()
+        CustomerRegistrationValidator.ValidationResult result = isEmailValid()
                 .and(isPhoneNumberValid())
                 .and(isAdult())
                 .apply(customer);

@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._05_combinator;
+package com.cyy._05_combinator;
 
 import java.time.LocalDate;
 import java.time.Period;

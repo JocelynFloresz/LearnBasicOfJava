@@ -1,16 +1,15 @@
-package com.yyc.learnfunctionalprograming._05_combinator;
+package com.cyy._05_combinator;
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.function.Function;
 
-import static com.yyc.learnfunctionalprograming._05_combinator.CustomerRegistrationValidator.*;
-import static com.yyc.learnfunctionalprograming._05_combinator.CustomerRegistrationValidator.ValidationResult.*;
+import static com.cyy._05_combinator.CustomerRegistrationValidator.ValidationResult.*;
 
 /**
  * @author dachen
  */
-public interface CustomerRegistrationValidator extends Function<Customer, ValidationResult> {
+public interface CustomerRegistrationValidator extends Function<Customer, CustomerRegistrationValidator.ValidationResult> {
     enum ValidationResult {
         SUCCESS, PHONE_NUMBER_NOT_VALID, EMAIL_NOT_VALID, IS_NOT_AN_ADULT
     }

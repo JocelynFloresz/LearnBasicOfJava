@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._03_Predicate;
+package com.cyy._03_Predicate;
 
 import java.util.function.Predicate;
 

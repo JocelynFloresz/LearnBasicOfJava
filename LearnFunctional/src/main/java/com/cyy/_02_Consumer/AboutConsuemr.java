@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._02_Consumer;
+package com.cyy._02_Consumer;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._06_CallBackLikeJavaScript;
+package com.cyy._06_CallBackLikeJavaScript;
 
 import java.util.function.Consumer;
 

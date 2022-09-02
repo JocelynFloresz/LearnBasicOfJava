@@ -1,19 +1,19 @@
-package com.yyc.learnfunctionalprograming._00_DeclarePrograming;
+package com.cyy._00_DeclarePrograming;
 
 import lombok.AllArgsConstructor;
 import lombok.ToString;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Person> personList = List.of(
-                new Person("1", Gender.FEMALE),
+        List<Person> personList = new ArrayList<>(Arrays.asList(new Person("1", Gender.FEMALE),
                 new Person("2", Gender.MALE),
                 new Person("3", Gender.FEMALE),
                 new Person("4", Gender.MALE),
-                new Person("5", Gender.FEMALE));
+                new Person("5", Gender.FEMALE)));
         //Imperative approach
         System.out.println("Imperative approach:");
         List<Person> females = new ArrayList<>();

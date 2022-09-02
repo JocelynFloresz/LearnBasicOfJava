@@ -1,4 +1,4 @@
-package com.yyc.learnfunctionalprograming._04_Supplier;
+package com.cyy._04_Supplier;
 
 import java.util.List;
 import java.util.function.Supplier;
